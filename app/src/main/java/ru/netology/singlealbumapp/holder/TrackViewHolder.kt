@@ -16,6 +16,7 @@ class TrackViewHolder(
             trackName.text = track.file
             trackTime.text = track.long
 
+            // Изменение значка воспросиведение-пауза для трека
             play.setImageResource(
                 if (track.toPlay) {
                     R.drawable.pause_circle_24dp

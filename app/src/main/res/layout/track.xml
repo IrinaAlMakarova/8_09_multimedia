@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="8dp">
+    android:padding="3dp">
 
     <ImageButton
         android:id="@+id/pause"
@@ -39,18 +39,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/play"
         app:layout_constraintStart_toEndOf="@+id/play"
         app:layout_constraintTop_toTopOf="@+id/play" />
-    <TextView
-        android:id="@+id/albumName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Album name"
-        tools:text="Album name"
-        android:textSize="16sp"
-        android:textColor="@color/grey"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/play"
-        app:layout_constraintStart_toEndOf="@+id/trackName"
-        app:layout_constraintTop_toTopOf="@+id/play" />
+
     <TextView
         android:id="@+id/trackTime"
         android:layout_width="wrap_content"
